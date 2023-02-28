@@ -44,7 +44,7 @@
                 flex: wrap;
                 font-family: 'Libre Baskerville', serif;
                 /* float: left; */
-                width: 100vw; 
+                width: 10%; 
             
             }
     
@@ -120,7 +120,7 @@
     
     header {
         height: 600px;
-        width: 100vw;
+        width: 100%;
         background: rgba(20, 101, 81, 0.9);
         overflow: hidden;
         position: relative;
@@ -129,7 +129,7 @@
     .header-photo{
     /* object-fit: cover; */
     opacity: 0.4;
-    height: 100vh;
+    height: 100%;
     /* height:auto; */
     
     /* left: 0; */
@@ -225,7 +225,7 @@
     
             .whatpeoplearesaying{
                 background-color:rgba(143, 193, 181, .9);
-                height: 80vh;
+                height: 80%;
                 flex-direction: column;
             
             }
@@ -356,7 +356,7 @@
         justify-content: center;
         align-items: center;
         flex-basis: 60%;
-        height: 40vh;
+        height: 40%;
         margin-bottom: 7%;
         flex-shrink: 1;
     
@@ -389,6 +389,7 @@
     
                    
     /* -------------------------------------------------------------- */
+
     /* -------------------------------------------------------------- */
 
 .biopage{
