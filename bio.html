@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beth's Portfolio Site</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbarlistoverlord">
+            <li></li>
+    
+            <li id="home"><a href="index.html">HOME</a></li>
+            <li id="home"><a href="bio.html">BIO</a></li>
+            <li id="resume"><a href="resume.html">RESUME</a></li>
+            <li id="projects"><a href="projects.html">PROJECTS</a></li>
+            <li id="chat"><a href="chat.html">LET'S CHAT!</a></li>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="biopage">
+        <!-- position these to the left of the page -->
+        <div class="stackthese">
+        <img id="biophoto" src="headshot.jpg">
+        <!-- image of myself -->
+<button class='modal-buttons' id="openModal">Contact Beth</button>
+		<div id="modal">
+			<div id='modal-textbox'>
+	
+				<h1 id="biomodalheader">Want to get in touch with Beth?</h1>
+
+                <form class="'biomodaltext"></form>
+                    <label for="firstname"> First name:</label><br>
+                    <input type="text" id="firstname" name="firstname"><br>
+        
+                    <label for="lastname">Last name:</label><br>
+                    <input type="text" id="lastname" name="lastname"><br>
+        
+                    <label for="email">Enter your email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    
+                    <label for="quantity">Contact number:</label><br>
+                    <input type="number" id="quantity" name="quantity"><br>
+        
+                    <textarea name="message" rows="12" cols="30"></textarea><br>
+        
+                    <input type="submit" value="Submit">
+                    <div id="modal-footer">
+                        <button class='modal-buttons' id='close' href="#">close</button>
+                    </div>
+                </form>
+	
+
+	
+			</div>
+		</div>
+    </div>
+       
+        <!-- have the button bring up a modal for contact form -->
+        <!-- position these to the right of the page -->
+        <div class="textstack">
+            <h4 class="biotitle">Hi, I'm Beth...</h4>
+            <p class="biopara">I am a software engineer with a background in personal training and biomechanics. My core skills include JavaScript, HTML, CSS, Flexbox, and jQuery. I love hiking, cooking, and snuggling with my cats. I am most at peace in the mountains.</p>
+            <h4 class="biotitle">Why the transition from training to software?</h4>
+            <p class="biopara">The application of biomechanics to personal training sparked my love for complex problem solving. In my practice I would look at the body as a whole system, not just "leg" "arm" "abs". The whole body works together to create pain free and effective movement. Through my evalualtion system, I find the "bugs" in a persons system that are impacting their movement. I then write a program to "debug" the root cause of the problem to help someone move pain free. (Can you see the similairities?)</p>
+            <h4 class="biotitle">The perfect marraige of skills...</h4>
+            <p class="biopara">I am excited that software engineering will lend to my love for complex systemic problem solving. I am hoping that in the future I can progress into a project managment role. I am very proud of my ability to push someone to the next level without pushing them over the edge. I believe that combining these two skills would make me a valuable asset to any companies managment team</p>
+            <h4 class="biotitle">A challenge I met head on...</h4>
+            <p class="biopara">I launched a small business at the start of March 2020. I was able to build my business to $100k annual revenue. This experience has taught me to push my comfort zone, take action (and succeed) with skills I was learning on the fly, and to persevere through difficult times.</p>
+        
+        </div>
+    </div>
+       
+</body>
+</html> 

@@ -1,0 +1,663 @@
+.wholesite{
+    /* background-color: #8FC1B5; */
+    /* display: flex;
+    flex-direction: column; */
+    }
+    
+    
+    p {
+        font-family: 'Work Sans', sans-serif;
+    }
+        .navbar{
+            list-style: none; 
+            width: 100%;
+            margin-left: -15px;
+            margin-right: -15px;
+            margin-top: -15px;
+            
+    
+        }
+    
+        #button{
+            justify-content: end;
+            text-align: end;
+            margin-right: 5px;
+            
+        }
+    
+        #navbarbutton{
+            background-color: rgba(38, 92, 75);
+            border: none;
+            outline: none;
+            flex: wrap;
+            font-family: 'Libre Baskerville', serif;
+        }
+            .navbarlistoverlord{
+                display: flex;
+                flex-direction: row;
+                list-style: none; 
+                /* padding: 0;   */
+                overflow: hidden;
+                background-color: rgba(38, 92, 75);
+                /* justify-content: center; */
+    
+                flex: wrap;
+                font-family: 'Libre Baskerville', serif;
+                /* float: left; */
+                width: 100vw; 
+            
+            }
+    
+            li {
+                /* border-right: 2px solid black;
+                display: inline-block;
+                float: left;
+                padding: 0 15px;
+                margin-top: 10px;
+                margin-bottom: 10px; */
+            }
+    
+            li a{
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 12px;
+                font-size: 18px;
+                line-height: 200%;
+                border-radius: 4px;
+                text-decoration: none;
+    
+    
+                /* margin-top: 10%;
+                margin-bottom: 10%;
+    
+                text-align: start;
+                padding: 1em;
+                display: block; */
+            }
+    
+            li a:hover{
+                background-color: #265C4B;
+            }
+    
+            @media screen and (max-width: 500px) {
+                .navbarlistoverlord li a {
+                  float: none;
+                }
+                /* .header-right {
+                  float: none;
+                } */
+              }
+    
+     
+           /* this makes the page int he nav bar a different color when you're on the page */
+    
+           /* .active {
+            background-color: #265C4B;
+          } */
+            #home{
+    
+            }
+            #bio{
+    
+            }
+            #resume{
+    
+            }
+            #projects{
+    
+            }
+            #links{
+    
+            }
+            #chat{
+    
+            }
+    
+            /* use this link later to get hover text over images https://blog.logrocket.com/responsive-image-gallery-css-flexbox/#creating-responsive-image-gallery-uniform-image-dimensions */
+    /* -------------------------------------------------------------- */
+    
+    
+    header {
+        height: 600px;
+        width: 100vw;
+        background: rgba(20, 101, 81, 0.9);
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .header-photo{
+    /* object-fit: cover; */
+    opacity: 0.4;
+    height: 100vh;
+    /* height:auto; */
+    
+    /* left: 0; */
+    
+    }
+    
+    section {
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        width: 100%;
+    }
+    
+    .homepage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+        /* //////////////////////////// */
+    
+        .whoisbeth{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            flex-basis: 60%;
+            /* height: 60vh; */
+            margin-bottom: 5%;
+            padding-top:6%;
+            padding-bottom:6%;
+            /* flex-direction: column; */
+    
+    
+        }
+            #whoheaderhome{
+                font-family: 'Libre Baskerville', serif;
+            }
+    
+        .stackthis {
+            /* flex-direction: column; */
+            /* flex-basis: 30%; */
+            flex-wrap: wrap;
+            padding-right: 2%;
+    
+        }
+    
+        .homepageheadshot{
+            /* flex-basis: 50px; */
+            /* object-fit: cover; */
+            max-width: 80%;
+            border-radius: 5px; 
+            padding-bottom: 2%; 
+            /* padding-top:8%; */
+            flex-wrap: wrap;
+            width:300px;
+            height:300px;
+    
+        }
+    
+        #whobutton{
+            flex-wrap: wrap;
+            width: 65%;
+            height: 13%;
+            background-color:#589A8D;
+            font-family: 'Libre Baskerville', serif;
+            padding: 14px 18px;
+            border: none;
+            outline: none;
+        }
+    
+        #whobutton a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        #whoisbethpara{
+            flex-wrap: wrap;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex-basis: 30%;
+            justify-content: center;
+            padding-left:2%;
+            /* padding-left: 50px; */
+        }
+                #whoparahome{
+                }
+    /* -------------------------------------------------------------- */
+    
+            .whatpeoplearesaying{
+                background-color:rgba(143, 193, 181, .9);
+                height: 80vh;
+                flex-direction: column;
+            
+            }
+                #whatheaderhome{
+                    font-family: 'Libre Baskerville', serif;
+                    text-align: center;
+                    margin-top: 12%;
+        
+                }
+    
+                .carousel-container {
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    margin-top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+    
+                .carousel-text {
+                    width: 30%;
+                    border-radius: 10px;
+                    font-family: 'Poppins', sans-serif;
+                    /* box-sizing: border-box; */
+                }
+    
+                .whattexthome {
+                    /* width: 100%; */
+                    border-radius: 10px;
+                    display: none;
+                    font-family: 'Work Sans', sans-serif;
+                }
+    
+                .carousel-button {
+                    align-self: center;
+                    background: rgba(255, 255, 255, .85);
+                    color: black;
+                    padding: 10px;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    border-radius: 50%;
+                    text-align: center;
+                }
+    
+                .carousel-button:hover {
+                    cursor: pointer;
+                    background: rgba(143, 193, 181, .85);
+                    /* color: white; */
+                }
+    
+                .whattexthome:first-of-type {
+                    display:block
+                }
+    
+                /* .whattexthome:nth-last-of-type(2) {
+                    display:block
+                }
+    
+                .whattexthome:nth-last-of-type(3) {
+                    display:block
+                } */
+    
+                /* this gets all of them to show up under eachother- figure out how to get them next to eachother */
+    
+    
+    /* -------------------------------------------------------------- */
+    
+    
+            .glimpseintolife{
+                /* height: 40vh; */
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                flex-basis: 60%;
+                justify-content: center;
+                margin-bottom: 5%;
+                padding-top:6%;
+                padding-bottom:6%;
+                /* background-color: #007566; */
+                    }
+    
+                .glimpseheader{
+                    font-family: 'Libre Baskerville', serif;
+                }
+                .glimpsephotolist{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    gap: 2.5px;
+                    /* margin-left: 5%;
+                    margin-right: 5%; */
+                }
+    
+                /* .glimpsephotolist::after{
+                    content: "";
+                    flex-basis: 350px;
+                } */
+    
+                .glimpsephotoli{
+                    flex-basis: 300px;
+                    list-style: none; 
+                    flex-wrap: wrap;
+                    flex-shrink: 1;
+                    /* the list li's */
+                    
+                }
+                    .glimpsephotohome{
+                        /* the photos */
+                        flex-wrap: wrap;
+                        /* object-fit: cover; */
+                        max-width: 100%;
+                        min-height: 200px;
+                        min-width: 200px;
+                        width: 200%;
+                        /* height: 150%; */
+                        /* vertical-align: middle; */
+                        border-radius: 5px;
+                        /* flex-grow: 10; */
+                        /* padding-bottom: 20%; */
+                        
+                    }
+    /* -------------------------------------------------------------- */
+    
+    .importantlinks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 60%;
+        height: 40vh;
+        margin-bottom: 7%;
+        flex-shrink: 1;
+    
+    
+    }
+    .titleflexbox {
+        font-family: 'Libre Baskerville', serif;
+    
+    
+    }
+    .linksflexbox {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .photowithlinks {
+        max-width: 100%; 
+        border-radius: 5px;
+        /* flex-basis: 30%; */
+        justify-content: space-around;
+        height: 100px;
+        width: 100px;
+    
+    }
+    
+    
+                   
+    /* -------------------------------------------------------------- */
+    /* -------------------------------------------------------------- */
+
+.biopage{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* i want the photo to wrap on top of the text when the broswer shrinks */
+    .stackthese{
+        flex-direction: column;
+        flex-basis: 30%;
+        
+    }
+
+    #biophoto{
+        flex-basis: 50px;
+        object-fit: cover;
+        max-width: 100%;
+        border-radius: 5px; 
+        padding-bottom: 20px; 
+    }
+    /* firgure out how to get the width to stop shrinking */
+    .biobutton{
+        justify-content: end;
+        width: 100%;
+        height: 30px;
+        background-color:#589A8D;
+        font-family: 'Libre Baskerville', serif;
+
+        
+    }
+
+    .textstack{
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: 30%;
+        justify-content: center;
+        padding-left: 50px;
+    }
+
+    .biotitle{
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .biopara{
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+
+    #modal{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 80%;
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 5%;
+        z-index: 1;
+        overflow:auto;
+        display: none;
+    }
+
+    #modal-textbox {
+        background-color:white;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        /* margin: 150px auto; */
+        margin-left: 10%;
+        padding: 3px;
+        line-height: 120%;
+    }
+
+   
+/* wrap issue liekly has to do with the modal and the contact beth button sharing classes */
+    #modal-footer {
+        margin-top: 5%;
+        text-align: left;
+    }
+
+    #biomodalheader {
+        font-family: 'Libre Baskerville', serif;
+        padding-bottom: 15px;
+        line-height: 120%;
+    }
+
+    .biomodaltext {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .modal-buttons{
+        padding: 14px 18px;
+        background-color: #007566;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        font-family: 'Libre Baskerville', serif;
+        cursor: pointer;
+
+    }
+
+    #close{
+        
+    }
+/* -------------------------------------------------------------- */
+
+
+	.resumepage{
+     height: 1000px;
+    }
+		#resumetitle{
+            font-family: 'Libre Baskerville', serif;
+            text-align: center;
+            font-size: 2.5em;
+        }
+		#downloadableresume{}
+
+        iframe {
+            margin-left: 5%;
+            margin-right: 15%;
+            height: 100%;
+            width: 80%;
+        }
+
+/* -------------------------------------------------------------- */
+
+
+	.projects{
+        font-family: 'Libre Baskerville', serif;
+        /* display: flex;
+        flex-direction: column; */
+
+    }
+		#projectsheader{
+            text-align: center;
+            margin-bottom: 20%;
+        }
+
+        .projecttext {
+            width: 100%;
+            border-radius: 10px;
+            margin-left: 20%;
+            font-family: 'Work Sans', sans-serif;
+            display: none;
+        }
+
+        .carousel-containerproject {
+            width: 70%;
+            display: flex;
+            align-items: center;
+            /* justify-content: space-around; */
+        }
+
+        .carouseltextproject {
+            width: 80%;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            /* box-sizing: border-box; */
+        }
+
+        .carouselbuttonproject {
+            align-self: center;
+            margin-left: 35%;
+            margin-right: 30%;
+            background: rgba(143, 193, 181, .85);
+            color: black;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .carousel-buttonproject:hover {
+            cursor: pointer;
+            background: rgba(255, 255, 255, .85);
+            /* color: white; */
+        }
+
+        .whattexthome:first-of-type {
+            display:block
+        }
+
+
+        
+
+/* -------------------------------------------------------------- */
+
+
+
+		/* will need more here for linked in and git hub links */
+		
+/* -------------------------------------------------------------- */
+    .chatbody{
+        /* background-color: #8FC1B5; */
+        width:100%;
+        /* background-image: url('presidentials.JPG'); */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+	.letschat{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .chatform {
+        margin-left: 35%;
+        margin-right: 30%;
+        margin-bottom: 30%;
+        margin-top: 6%;
+    }
+
+    .chatformboxes{
+margin-top: 2%;
+margin-bottom: 2%;
+width: 100%;
+height: 100%;
+font-size: 20px;
+    }
+
+    #messagespot {
+        height: 300px;
+    }
+
+    .submitbutton{
+        background-color: #146551;
+    }
+        /* will need more here for the form submission
+        will need here for alert */
+/* -------------------------------------------------------------- */
+
+	.footer{
+        display: flex;
+        /* position: fixed; */
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        background-color:#589A8D;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        line-height: 20px;
+
+    }
+
+    .footer a{
+        height: 10px;
+        width: 10px;
+    }
+
+    .footer p {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .footer h5 {
+        font-family: 'Libre Baskerville', serif;
+    }
+		/* will need more here for footer socials */
+
+
+       
